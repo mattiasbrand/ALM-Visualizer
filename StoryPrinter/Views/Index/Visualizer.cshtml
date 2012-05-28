@@ -1,0 +1,10 @@
+﻿@model StoryPrinter.Models.VisualizerViewModel
+@{
+    ViewBag.Title = "Visualizer";
+}
+
+<h2>Visualizer</h2>
+@foreach(var task in Model.Tasks)
+{
+    @Html.Partial("Task", task)
+}

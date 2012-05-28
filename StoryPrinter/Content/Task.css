@@ -1,0 +1,47 @@
+﻿.task-container {
+    border: green 3px solid;
+    width: 250px;
+    float: left;
+    margin: 10px;
+}
+
+.id-container {
+    border: green solid;
+    border-width: 0 3px 3px 0;
+    float: left;
+    padding: 0 3px;
+}
+
+.sprint-container {
+    border: green solid;
+    border-width: 0 0 3px 3px;
+    float: right;
+    padding: 0 3px;
+}
+
+.name-container {
+    clear: both;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
+.name-container .value {
+    display: block;
+}
+.dev-container {
+    border: green solid;
+    border-width: 3px 3px 0 0;
+    width: 140px;
+    height: 24px;
+    padding-left: 3px;
+}
+
+.label {
+    font-size: 12px;
+    vertical-align: top;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: bold;
+}
